@@ -4,7 +4,7 @@
     <p><i>
         This repository is derived from
         <a href="https://github.com/mubin6th/charcoal">mubin6th/charcoal</a>.
-    <i></p>
+    </i></p>
 
 **[Preview] | [Install] | [Contribute]**
 </div>
