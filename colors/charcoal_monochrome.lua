@@ -52,5 +52,6 @@ end
 
 if palette then
     require("mini.base16").setup({ palette = palette, use_cterm = true })
-    vim.g.colors_name = "charcoal"
+    vim.g.colors_name = "charcoal_monochrome"
 end
+
