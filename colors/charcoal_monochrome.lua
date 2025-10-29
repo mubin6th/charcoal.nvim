@@ -1,5 +1,5 @@
 -- =============================================================================
--- Name:           Charcoal
+-- Name:           Charcoal Monochrome
 -- Description:    A simple monochrome colorscheme.
 -- Author:         mubin6th
 -- Website:        https://github.com/mubin6th/charcoal.nvim

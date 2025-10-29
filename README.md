@@ -1,6 +1,6 @@
 <div align="center">
     <h1>charcoal.nvim</h1>
-    <p>A simple monochrome colorscheme.</p>
+    <p>A warm and simple colorscheme.</p>
     <p><i>
         This repository is derived from
         <a href="https://github.com/mubin6th/charcoal">mubin6th/charcoal</a>.
@@ -20,7 +20,7 @@ Charcoal Dark is meant to help distinguish Code from UI. Charcoal is inspired by
 and Gruvbox Material colorschemes and tries to be simple and easy-on-eyes theme.
 
 ## Preview
-_todo_
+<a href="https://github.com/mubin6th/charcoal/blob/develop/readme_resources/preview_neovim_v1.0.0.png?raw=true"><img alt="preview_neovim_v1.0.0.png" src="https://github.com/mubin6th/charcoal/blob/develop/readme_resources/preview_neovim_v1.0.0.png?raw=true"></a>
 
 ## Install
 Below are instructions to install Charcoal for different package managers:
@@ -32,7 +32,7 @@ Below are instructions to install Charcoal for different package managers:
     dependencies = { "nvim-mini/mini.base16" },
     priority = 1000,
     config = function()
-        vim.cmd("colorscheme charcoal")
+        vim.cmd("colorscheme charcoal_monochrome")
     end
 }
 ```
@@ -44,9 +44,32 @@ MiniDeps.now(function()
         source = "mubin6th/charcoal.nvim",
         depends = { "nvim-mini/mini.base16" },
     })
-    vim.cmd("colorscheme charcoal")
+    vim.cmd("colorscheme charcoal_monochrome")
 end)
 ```
 
+### Switching between dark and light themes
+Switching between light and dark themes are done through `vim.o.background` variable.
+To switch to dark theme (the default), set the variable to `vim.o.background = 'dark'`
+and `vim.o.background = 'light'` otherwise.
+
+Preferable to add it right before `vim.cmd("colorscheme charcoal_monochrome")`. Here is an
+example with lazy.nvim:
+```lua
+{
+    "mubin6th/charcoal.nvim",
+    dependencies = { "nvim-mini/mini.base16" },
+    priority = 1000,
+    config = function()
+        vim.o.background = 'light' -- enables light mode
+        vim.cmd("colorscheme charcoal_monochrome")
+    end
+}
+```
+
 ## Contribute
-_todo_
+If you would like to contribute to the project through posting an issue, please do so.
+But as a reminder this repository does not accept any suggestions to change the
+colorscheme. If you would like to suggest any change please refer to
+[mubin6th/charcoal](https://github.com/mubin6th/charcoal). I will kindly view your
+opinion, Insha'allah.
