@@ -20,7 +20,7 @@ Charcoal Dark is meant to help distinguish Code from UI. Charcoal is inspired by
 and Gruvbox Material colorschemes and tries to be simple and easy-on-eyes theme.
 
 ## Preview
-<a href="https://github.com/mubin6th/charcoal/blob/develop/readme_resources/preview_neovim_v1.1.0.png?raw=true"><img alt="preview_neovim_v1.1.0.png" src="https://github.com/mubin6th/charcoal/blob/develop/readme_resources/preview_neovim_v1.1.0.png?raw=true"></a>
+<a href="https://github.com/mubin6th/charcoal/blob/master/readme_resources/preview_neovim_v1.1.0.png?raw=true"><img alt="preview_neovim_v1.1.0.png" src="https://github.com/mubin6th/charcoal/blob/master/readme_resources/preview_neovim_v1.1.0.png?raw=true"></a>
 
 ## Install
 Below are instructions to install Charcoal for different package managers:
