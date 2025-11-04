@@ -2,6 +2,7 @@
 
 ## v1.1.1 (In progress)
 - change: README.md: change author from mubin6th to think-mubin.
+- change: colors/charcoal_monochrome.lua: change author to think-mubin.
 
 ## v1.1.0 - 31/10/2025
 - **breaking**: color palette is now 8 colors for both dark and light monochrome variants.
