@@ -1,8 +1,8 @@
 -- =============================================================================
 -- Name:           Charcoal Monochrome
 -- Description:    A warm and simple colorscheme.
--- Author:         think-mubin
--- Website:        https://github.com/think-mubin/charcoal.nvim
+-- Author:         mubin-thinks
+-- Website:        https://github.com/mubin-thinks/charcoal.nvim
 -- License:        MIT
 -- =============================================================================
 
